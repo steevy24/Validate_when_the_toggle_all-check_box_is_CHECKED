@@ -23,7 +23,9 @@ public class DashBoardPageTest {
 		 
 		 dashboardPage.verifyDashboardHeader();
 	
-		 dashboardPage.clickToggleAllButton();
+		 dashboardPage.clickCustomer1();
+		 
+		 dashboardPage.clickRemoveCustomer();
 		  
 		 
 	}

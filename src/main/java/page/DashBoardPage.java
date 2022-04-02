@@ -21,13 +21,9 @@ public class DashBoardPage {
 	@FindBy(how = How.XPATH, using = "/html/body/div[3]/input[3]")
 	WebElement TAGGLE_ALL_ELEMENT;
 
-	@FindBy(how = How.XPATH, using = "/html/body/div[3]/a[1]")
-	WebElement ADVANCED_ELEMENT;
+	@FindBy(how = How.XPATH, using = "/html/body/a[1]")
+	WebElement REMOVE_FIRST_CUSTOMER_ELEMENT;
 
-	
-	
-	
-	
 	@FindBy(how = How.XPATH, using = "/html/body/div[3]/a[2]/span")
 	WebElement TECH23_ELEMENT;
 	
@@ -130,12 +126,10 @@ public class DashBoardPage {
 		TAGGLE_ALL_ELEMENT.click();
 	}
 
-	public void clickAdvancedButton() {
-		ADVANCED_ELEMENT.click();
+	public void clickRemoveCustomer() {
+		REMOVE_FIRST_CUSTOMER_ELEMENT.click();
 	}
 
-	
-	
 	
 	public void clickCustomer1() {
 		TECH23_ELEMENT.click();
